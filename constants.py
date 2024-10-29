@@ -15,7 +15,7 @@ MVTEC = {
         't_overlap': 0.25,
         'intensity_logistic_params': (1/12, 24), 
         'scale': (0.7, 0.13),
-        'n_patch_max': 3,
+        'n_patch_max': 1,
     },
 
     'screw': {
@@ -25,6 +25,7 @@ MVTEC = {
         'patch_size_bounds': np.array([[0.06, 0.24], [0.06, 0.24]]),
         't_object': 0.2,   
         'intensity_logistic_params': (1, 3), 
+        'n_patch_max': 1,
     },
 
     'metal_nut': {
@@ -34,6 +35,7 @@ MVTEC = {
         'patch_size_bounds': np.array([[0.06, 0.80], [0.06, 0.80]]),
         't_object': 0.5,   
         'intensity_logistic_params': (1/3, 7), 
+        'n_patch_max': 1,
     },
 
     'cable': {
@@ -43,6 +45,7 @@ MVTEC = {
         'patch_size_bounds': np.array([[0.10, 0.80], [0.10, 0.80]]),
         't_object': 0.7,   
         'intensity_logistic_params': (1/12, 24), 
+        'n_patch_max': 1,
     },
 
     'leather': {
@@ -53,6 +56,7 @@ MVTEC = {
 
         't_object': 0.5,
         'intensity_logistic_params': (1/3, 7), 
+        'n_patch_max': 1,
     },
 
     'carpet': {
@@ -61,6 +65,7 @@ MVTEC = {
         'brightness_threshold': 1,
         'patch_size_bounds': np.array([[0.06, 0.80], [0.06, 0.80]]),
         'intensity_logistic_params': (1/3, 7),
+        'n_patch_max': 1,
     },
 
 }
